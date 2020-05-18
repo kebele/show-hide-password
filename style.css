@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    position: relative
+}
+
+.wrapper input {
+    letter-spacing: 2px;
+    width: 600px;
+    height: 70px;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 5px 30px #000;
+    font-size: 16px
+}
+
+.wrapper input:placeholder {
+    color: coral
+}
+
+#ikon {
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer
+}
